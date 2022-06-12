@@ -1,0 +1,25 @@
+.logo {
+  font-size: 24px;
+  font-weight: 600;
+}
+.link {
+  text-decoration: none;
+  font-weight: 500;
+}
+nav {
+  background-color: var(--clr-secondary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  padding-inline: 10%;
+  color: rgb(246, 246, 235);
+}
+nav > ul {
+  display: flex;
+  gap: 15px;
+}
+nav ul li {
+  padding: 15px 0px;
+  color: rgb(246, 246, 235);
+}
