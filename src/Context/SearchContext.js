@@ -8,15 +8,10 @@ export const SearchProvider = ({ children }) => {
 
   const searchUsers = async userName => {
     const response = await fetch(
-      `https://api.github.com/search/users?q=${userName}`,
-      {
-        headers: {
-          Authorization: `token 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`,
-        },
-      }
+      `https://api.github.com/search/users?q=${userName}`
     );
     const data = await response.json();
-    console.log(data.items);
+
     setUserInfo(data.items);
   };
   useEffect(() => {

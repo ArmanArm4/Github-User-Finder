@@ -10,8 +10,10 @@ function SearchBar({ setUserName }) {
   };
 
   const SearchUserHandler = () => {
-    setUserName(usersSearch);
-    setUsersSearch("");
+    if (usersSearch.length > 0) {
+      setUserName(usersSearch);
+      setUsersSearch("");
+    }
   };
   return (
     <div className={classes.search_bar}>

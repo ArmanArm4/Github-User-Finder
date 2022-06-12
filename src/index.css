@@ -17,7 +17,8 @@ body {
   padding: 0;
   width: 100%;
   background-color: var(--clr-accent);
-  min-height: 100vh;
+  min-height: 110vh;
+  overflow-x: hidden;
 }
 ul {
   list-style: none;

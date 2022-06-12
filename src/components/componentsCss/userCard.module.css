@@ -32,18 +32,18 @@
   height: 50px;
   background-color: var(--clr-secondary);
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  cursor: pointer;
+  text-decoration: none;
 }
-.user_info > div {
+.user_info > button {
   width: 50%;
-
-  margin: 1px;
-  display: flex;
-  justify-content: flex-start;
-  padding-left: 15px;
+  border: none;
+  background-color: initial;
   font-size: 22px;
   color: rgb(246, 246, 235);
+  cursor: pointer;
 }
 .user_info h5 {
   margin-left: 10px;
